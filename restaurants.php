@@ -37,7 +37,7 @@ session_start();
                         <ul class="nav navbar-nav">
                             <li class="nav-item"> <a class="nav-link active" href="index.php">Home <span class="sr-only">(current)</span></a> </li>
                             <li class="nav-item"> <a class="nav-link active" href="restaurants.php">Restaurants <span class="sr-only"></span></a> </li>
-                            
+                            <li class="nav-item"> <a class="nav-link active" href="about.php">About <span class="sr-only"></span></a> </li>
 							<?php
 						if(empty($_SESSION["user_id"]))
 							{
@@ -132,43 +132,41 @@ session_start();
                 </div>
             </section>
        
-        <footer class="footer">
+            <footer class="footer">
             <div class="container">
-                
-              
                 <div class="bottom-footer">
                     <div class="row">
-                        <div class="col-xs-12 col-sm-3 payment-options color-gray">
-                            <h5>Payment Options</h5>
-                            <ul>
-                                <li>
-                                    <a href="#"> <img src="images/paypal.png" alt="Paypal"> </a>
-                                </li>
-                                <li>
-                                    <a href="#"> <img src="images/mastercard.png" alt="Mastercard"> </a>
-                                </li>
-                                <li>
-                                    <a href="#"> <img src="images/maestro.png" alt="Maestro"> </a>
-                                </li>
-                                <li>
-                                    <a href="#"> <img src="images/stripe.png" alt="Stripe"> </a>
-                                </li>
-                                <li>
-                                    <a href="#"> <img src="images/bitcoin.png" alt="Bitcoin"> </a>
-                                </li>
-                            </ul>
+                        <div class="col-xs-12 col-sm-6">
+                            <!-- Google Maps -->
+                            <iframe
+                                width="100%"
+                                height="350"
+                                frameborder="0"
+                                style="border:0"
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3872.4586362657856!2d121.11344479999998!3d13.9312755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33bd12cd54b296cd%3A0xd5ec2cc63863deb2!2sJvm%20Eatery!5e0!3m2!1sen!2sph!4v1701777864960!5m2!1sen!2sph"
+                                width="500"
+                                height="200"
+                                style="border:0;"
+                                allowfullscreen=""
+                                loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade">
+                            </iframe>
                         </div>
-                        <div class="col-xs-12 col-sm-4 address color-gray">
-                                    <h5>Address</h5>
-                                    <p>Purok 2 Banay-Banay San Vicente Ferrer Lipa City</p>
-                                    <h5>Phone: 09123456789</a></h5> </div>
-                                <div class="col-xs-12 col-sm-5 additional-info color-gray">
-                                    <h5>Addition informations</h5>
-                                   <p>Come and Eat with us here in JVM Kainan. Let's enjoy the hot and delicous Lomi. You may contact us in Phone Number or Email.</p>
-                                </div>
+                        <div class="col-xs-12 col-sm-6">
+                            <!-- Address, Phone, and Additional Information -->
+                            <div class="address color-gray">
+                                <h5>Address</h5>
+                                <p>Purok 2 Banay-Banay San Vicente Ferrer Lipa City</p>
+                                <h5>Phone: </h5>
+                                <p>09123456789</p>
+                            </div>
+                            <div class="additional-info color-gray">
+                                <h5>Additional Information</h5>
+                                <p>Come and Eat with us here in JVM Kainan. Let's enjoy the hot and delicious Lomi. You may contact us via Phone Number or Email.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-       
             </div>
         </footer>
         

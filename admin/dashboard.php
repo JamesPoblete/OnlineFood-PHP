@@ -11,6 +11,7 @@ if(empty($_SESSION["adm_id"]))
 else
 {
 ?>
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">    
@@ -92,6 +93,8 @@ else
                         </li>
 						 <li> <a href="all_orders.php"><i class="fa fa-shopping-cart" aria-hidden="true"></i><span>Orders</span></a></li>
                          
+                       
+
                     </ul>
                 </nav>
             

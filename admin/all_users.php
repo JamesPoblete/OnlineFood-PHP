@@ -106,6 +106,7 @@ session_start();
                         </li>
 						 <li> <a href="all_orders.php"><i class="fa fa-shopping-cart" aria-hidden="true"></i><span>Orders</span></a></li>
                          
+                      
                     </ul>
                 </nav>
          
@@ -183,7 +184,7 @@ session_start();
                 </div>
              
             </div>
-            <footer class="footer"> © 2022 - Online Food Ordering System</footer>
+            <footer class="footer"> © 2023 - Online Food Ordering System</footer>
            
         </div>
      
